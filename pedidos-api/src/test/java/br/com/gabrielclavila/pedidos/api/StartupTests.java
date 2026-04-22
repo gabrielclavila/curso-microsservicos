@@ -1,4 +1,4 @@
-package com.br.gabrielclavila.pedidos.api;
+package br.com.gabrielclavila.pedidos.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.br.gabrielclavila.pedidos.api;
+package br.com.gabrielclavila.pedidos.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

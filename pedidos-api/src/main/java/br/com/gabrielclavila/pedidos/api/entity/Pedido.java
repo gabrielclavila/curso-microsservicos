@@ -1,6 +1,6 @@
-package com.br.gabrielclavila.pedidos.api.entity;
+package br.com.gabrielclavila.pedidos.api.entity;
 
-import com.br.gabrielclavila.pedidos.api.entity.enums.Status;
+import br.com.gabrielclavila.pedidos.api.entity.enums.Status;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Data;

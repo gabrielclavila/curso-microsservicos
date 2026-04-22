@@ -1,4 +1,4 @@
-package com.br.gabrielclavila.pedidos.api.entity.enums;
+package br.com.gabrielclavila.pedidos.api.entity.enums;
 
 public enum Status {
 

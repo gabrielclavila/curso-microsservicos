@@ -1,6 +1,6 @@
-package com.br.gabrielclavila.pedidos.api.controller;
+package br.com.gabrielclavila.pedidos.api.controller;
 
-import com.br.gabrielclavila.pedidos.api.entity.Pedido;
+import br.com.gabrielclavila.pedidos.api.entity.Pedido;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

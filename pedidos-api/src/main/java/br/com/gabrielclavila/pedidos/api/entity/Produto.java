@@ -1,4 +1,4 @@
-package com.br.gabrielclavila.pedidos.api.entity;
+package br.com.gabrielclavila.pedidos.api.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,9 +9,9 @@ import java.util.UUID;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class ItemPedido {
+public class Produto {
 
     private UUID id = UUID.randomUUID();
-    private Produto produto;
-    private Integer quantidade;
+    private String nome;
+    private Double valor;
 }

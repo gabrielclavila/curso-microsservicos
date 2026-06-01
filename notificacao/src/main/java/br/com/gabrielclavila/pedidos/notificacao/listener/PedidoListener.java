@@ -21,6 +21,7 @@ public class PedidoListener {
     @RabbitListener(queues = "pedidos.v1.pedido-criado.gerar-notificacao")
     public void enviarNotificacao(Pedido pedido){
 
+        logger.info("Tentando consumir a mensagem");
         // Simulando uma Exception que causará um loop infinito no recebimento das mensagens, pois a mensagem e enviada para o RabbitMQ
         // Onde ele tenta processar a mensagem e como está com um problema por ser uma Exception,
         // ele reenvia a mensagem para fila e tenta processar novamente e fica nesse ciclo causando o loop infinito
